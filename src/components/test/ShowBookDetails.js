@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 import axios from 'axios';
 
@@ -14,9 +14,9 @@ class showBookDetails extends Component {
 
   componentDidMount() {
 
-    console.log("Print id: " + "620131f6f0cdb696c93aeabf");
+  
     axios
-      .get('http://localhost:8082/api/books/'+"620131f6f0cdb696c93aeabf")
+      .get('http://localhost:8082/api/books/620131f6f0cdb696c93aeabf')
       .then(res => {
         // console.log("Print-showBookDetails-API-response: " + res.data);
         this.setState({

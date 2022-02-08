@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import ShowBookList from "./components/test/ShowBookList";
 import CreateBook from "./components/test/CreateBook";
 import UpdateBookInfo from "./components/test/UpdateBookInfo";
 import ShowBookDetails from "./components/test/ShowBookDetails";
