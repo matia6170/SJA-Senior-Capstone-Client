@@ -8,6 +8,7 @@ import Simulation from "./components/Simulation";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import GetStarted from "./components/GetStarted";
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/getstarted" element={<GetStarted />} />
         <Route path="/simulation" element={<Simulation />} />
-
+        <Route path="/about" element={<About />} />
 
         <Route path="/:id" element={<TestComponent />} />
         <Route path="/create-book" element={<CreateBook />} />

@@ -11,10 +11,10 @@ export default function Home() {
       <div className="container">
         <div className="text-center">
           <div className="home">
-            <h1 className="display-4">Capstone Covid Simulation</h1>
+            <h1 className="display-3">CoSim</h1>
             <hr />
-
-            <Link to="/about" className="btn btn-outline-primary btn-lg">
+            <p className="lead">A Covid Simulation</p>
+            <Link to="/getstarted" className="btn btn-outline-primary btn-lg">
               Get Started
             </Link>
           </div>
