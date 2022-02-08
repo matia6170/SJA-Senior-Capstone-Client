@@ -27,6 +27,7 @@ export default function GetStarted() {
         >
           <b>START</b>
         </Link>
+        <br/>
       </div>
     </div>
   );

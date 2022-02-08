@@ -6,6 +6,7 @@ export default function About() {
       <div className="container">
         <h1 className="display-4">About my project</h1>
         <hr />
+        <p className="lead">by: Hyunwoo Choi</p>
 
         <p className="">
           Until now, during the COVID pandemic, I saw many people who didn’t
