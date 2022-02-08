@@ -9,11 +9,12 @@ export default function GetStarted() {
         <hr />
         <p className="lead">
           I created this project to bring awareness to students about the
-          importance of following government guidelines for COVID-19 using simulation
+          importance of following government guidelines for COVID-19 using
+          simulation
         </p>
         <p className="lead">
           In this simulation you will be in control of a small society where you
-          will have the power to controll different parameters or policy(Mask
+          will have the power to control different parameters or policy(Mask
           on/off, limiting social gatherings, vaccination, etc...)
         </p>
         <p className="lead">You can play the simulation as long as you want.</p>
@@ -27,7 +28,7 @@ export default function GetStarted() {
         >
           <b>START</b>
         </Link>
-        <br/>
+        <br />
       </div>
     </div>
   );
