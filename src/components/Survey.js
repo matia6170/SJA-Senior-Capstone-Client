@@ -38,7 +38,8 @@ export default function Survey() {
         navigate("/");
       })
       .catch((err) => {
-        console.log("Error in CreateBook!");
+        alert("Error posting survey data!");
+        console.log("Error posting survey data!");
       });
 
   };
