@@ -4,6 +4,9 @@ import "../style/survey.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Survey() {
+  const backend = "https://matia-senior-capstone.herokuapp.com/api/surveys"
+  const localBackend ="http://localhost:8082/api/surveys"
+
     const navigate = useNavigate();
 
   const [survey, setSurvey] = useState({
@@ -27,7 +30,7 @@ export default function Survey() {
   const onSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8082/api/surveys", survey)
+      .post(backend, survey)
       .then((res) => {
         setSurvey({
           q1: 5,
