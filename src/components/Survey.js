@@ -18,11 +18,11 @@ export default function Survey() {
   });
 
   useEffect(() => {
-    axios.get("https://geolocation-db.com/json/").then((res) => {
+   /*  axios.get("https://geolocation-db.com/json/").then((res) => {
       setSurvey((prev) => ({ ...prev, ip: res.data.IPv4 }));
     }).catch(err=>{
         setSurvey((prev) => ({ ...prev, ip: "err" }));
-    });
+    }); */
   }, []);
 
   const parseBool = (str) => (str === "true" ? true : false);
